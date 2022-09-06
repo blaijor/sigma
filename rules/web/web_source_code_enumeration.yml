@@ -12,7 +12,7 @@ logsource:
   category: webserver
 detection:
   keywords:
-    - '*.git/*'
+    - '*/.git/*'
   condition: keywords
 fields:
   - client_ip
